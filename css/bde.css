@@ -1,0 +1,446 @@
+/* Présentation du BDE */
+
+.presentContent
+{
+    background-color: rgb(254,239,240);
+    padding-top:5%;
+}
+
+.Presentbanner
+{
+    background-color: white;
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.1);
+    text-align: center;
+    margin:0% 5% 0% 5%;
+    border-radius: 2px;
+}
+
+.Presentbanner img
+{
+   width:150px;
+   height:150px;
+}
+
+.Presentbody
+{
+    padding: 2% 10% 10% 10%;
+}
+
+.Presentbody p
+{
+    margin-bottom: 8%;
+}
+
+.title_bde
+{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    text-shadow: 2px 2px 4px orange;
+}
+
+
+/* Membres du BDE */
+
+.members
+{
+   font-size: 1.2em;
+}
+
+otherMembers
+{
+   display: flex;
+    flex-wrap: wrap;
+}
+
+.member
+{
+    margin-bottom: 3%;
+}
+.member-personnal-info
+{
+   display: inline-block;
+}
+
+.member-role
+{
+   font-weight: bold;
+}
+
+.member-image
+{
+   display: inline-block;
+   margin: 2% 2% 0% 0%;
+}
+
+.member-image img
+{
+   width: 200px;
+   height: 200px;
+}
+
+
+/* Evenements */
+
+#EvenementListe h3{
+    margin-bottom:2%;
+}
+
+#banniere h2{
+    width: 100%;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 3em;
+    color: orange;
+    text-align: center;
+    padding: 5% 0;
+}
+.TitleEvent{
+    width:100%;
+    padding: 0;
+    font-size: 1.2em;
+    color:green;
+    text-decoration:none;
+}
+
+.Event{
+    width: 60%;
+    text-align:center;
+    background:#E2E2E2;
+    width: 50%;
+    height: 50%;
+    border: 1px solid rgb(212,212,212);
+    margin : 0% auto 3% auto;
+}
+.EventDate{
+    font-size: 1.2em;
+    margin: 0% 25% 0% 25%;
+    background:orange;
+    color:white;
+    border-radius:10px;
+
+}
+.EventImage {
+    position: relative;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.EventThumbnail{
+
+}
+.EventText{
+    font-size:1.2em;
+    text-align:center;
+    padding: 1%;
+    margin: 4% 2% 4% 8%;
+    background: #FFF;
+    display: inline-block;
+    width:60%;
+}
+
+.fa-plus-circle{
+    color: green;
+    font-size: 2.5em;
+}
+
+.fa-plus-circle:hover{
+    color: lime;
+}
+
+.fa-file-pdf:hover
+{
+    color:red;
+}
+
+.fa-file-csv:hover
+{
+    color:green;
+}
+
+.file_
+{
+   display: inline-block;
+    font-size: 2.5em;
+}
+
+.fa-times
+{
+    color:red;
+    font-size: 1.5em;
+}
+
+.croix
+{
+    text-align: right;
+}
+
+
+/* Commentaires */
+
+.comment
+{
+    text-align: left;
+    margin-bottom: 3%;
+}
+
+.comment-name
+{
+    font-weight: bold;
+    display: inline;
+    margin-right: 1%;
+}
+
+.comment-message
+{
+    display: inline;
+}
+
+.comment-time
+{
+    color: rgb(180,180,180);
+    font-size: 0.8em;
+    text-align: right;
+}
+
+#comment-body
+{
+    word-wrap: break-word;
+}
+
+#comment-form
+{
+    margin-top: 5%;
+    width: 100%;
+}
+
+#comment-form .input-group
+{
+    display: flex;
+}
+
+#comment-form .input-group textarea
+{
+    word-wrap: break-word;
+    flex:3;
+}
+
+#comment-form .input-group a
+{
+    flex:1;
+    color:blue;
+    font-weight:bold;
+}
+
+/* Boîte à idées*/
+.ideavote{
+    background:#E2E2E2;
+    margin: 5% 20%;
+    padding: 0 3% 3% 3%;
+}
+.BAIh3{
+    text-align:center;
+    color: orange;
+    font-size: 2.4em;
+    padding: 2%;
+}
+
+.IdeeName{
+    border-radius:5px;
+    font-size:1em;
+    color:white;
+    text-align:center;
+    background:rgb(244,146,13);
+    padding: 1%;
+    margin: 2% 25%;
+}
+
+.IdeeContent{
+    background:#FFF;
+    border:1px solid #000000;
+    border-radius:5px;
+    font-size:1em;
+    margin: 0 0 2% 0;
+}
+.proposition{
+    text-align:center;
+    background:#E2E2E2;
+    margin: 0 20%;
+}
+
+.Activity_text{
+    width: 100%;
+    background:#FFF;
+    border:1px solid #000000;
+    border-radius:5px;
+    font-size:15px;
+}
+#propose{
+    padding: 2%;
+    border-radius:5px;
+    font-size:1em;
+    color:white;
+    background:rgb(244,146,13);
+    border:none;
+    margin:1% 20%;
+
+}
+#banniere h2{
+    margin: 2% 0;
+    width: 100%;
+    font-weight: bold;
+    font-size: 3em;
+    color: rgb(244,146,13);
+    text-align: center;
+}
+
+.IdeeVotes{
+    border-radius:5px;
+    font-size:1em;
+    color:white;
+    text-align:center;
+    background:green;
+    border:none;
+    margin: 0 35% 2% 35%;
+}
+
+.votefor:hover{
+    background: #f18186;
+    color: #FFFFFF;
+}
+.vote_{
+    text-align:center;
+    background:white;
+    padding: 2%;
+    border-radius: 10px;
+    margin-bottom: 3%;
+}
+
+.vote_ form{
+    display:inline;
+}
+
+.vote_ button{
+    border-radius:5px;
+    font-size:1em;
+    color:white;
+    background:#B2030A;
+    border:none;
+    padding:1%;
+    margin: 0 20%;
+}
+
+.boiteMail
+{
+    margin: 14%;
+}
+
+@media screen and (max-width: 1536px)
+{
+
+    .events{
+      padding: 0% 20% 0% 20%;
+    }
+
+}
+
+@media screen and (min-width: 992px)
+{
+    .EventDate{
+        margin: 0% 37% 0% 37%;
+    }
+}
+
+@media screen and (max-width: 992px)
+{
+ /* Boîte à idées*/
+
+    .buttonBAI{
+        display: inline-block;
+    }
+
+    #prodname
+    {
+      display: inline;
+    }
+
+    #proddescrip
+    {
+        display: inline;
+    }
+
+    .BAIh3{
+        font-size: 1.8em;
+    }
+
+    .IdeeName{
+        font-size: 0.8em;
+    }
+
+    .IdeeContent{
+        font-size:0.8em;
+    }
+
+    .IdeeVotes{
+        padding: 1%;
+        font-size: 0.8em;
+    }
+
+    .proposition{
+        margin: 0 10%;
+    }
+
+    .ideavote{
+        margin: 5% 10%;
+        padding: 0 3% 3% 3%;
+    }
+
+    #banniere h2{
+        font-size: 2em;
+    }
+
+
+/*évènements*/
+    #EvenementListe h3{
+        font-size: 1em;
+    }
+
+    .Event{
+        width: 75%;
+    }
+
+    .EventDate{
+        font-size: 1em;
+    }
+
+    .EventText{
+        font-size: 0.8em;
+    }
+
+}
+
+
+@media screen and (max-width: 600px)
+{
+
+    .events{
+        padding: 0% 10% 0% 10%;
+    }
+
+    .event-title{
+        font-size: 1em;
+    }
+
+    .event-time
+    {
+        font-size: 0.7em
+    }
+
+    .event-content{
+        font-size: 0.8em;
+    }
+
+
+}
+

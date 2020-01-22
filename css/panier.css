@@ -1,0 +1,67 @@
+#main-panier{
+	padding-top: 3%;
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 20%;
+}
+
+#content{
+    border:rgb(245,245,245) 3px solid;
+	flex-basis: 50%;
+	/*flex-wrap: wrap;*/
+	display: flex;
+	flex-direction: column;
+	padding: 1%;
+}
+
+div.prod-panier{
+	padding: 0.5%;
+	display: flex;
+	border:rgb(255,200,200) 1px solid;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.img-prod{
+	flex-basis: 57%;
+}
+.prod-name{
+	flex-basis: 18%;
+	font-weight: bold;
+}
+
+div.prod-panier form{
+	flex-basis: 18%;
+	
+}
+.pbelle{
+	flex-basis: 5%;
+}
+.pbelle i:hover{
+	color: 	rgb(255,34,34);
+
+}
+
+#payment{
+	border:rgb(245,245,245) 3px solid;
+	flex-basis: 20%;
+	padding: 1%;
+}
+
+h3.panier{
+	padding-top: 2%;
+    color: orange;
+    text-align: center;
+    margin: auto;
+	width: 60%;
+	background: url('../assets/images/autres/separateur.png') repeat-x bottom;
+}
+
+h5{
+	font-weight: bold;
+}
+
+#totalprice{
+	display: inline-block;
+}

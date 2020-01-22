@@ -1,2 +1,2 @@
-# BDE-UcacIcam_Website
-Site Web pour la Boutique des Etudiants et le BDE de Ucac-icam Douala
+# BDE_Website
+projet académique consistant à réaliser un site web pour le BDE de l'école
